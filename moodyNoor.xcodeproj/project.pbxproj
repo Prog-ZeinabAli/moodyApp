@@ -13,6 +13,8 @@
 		E3AA30B223CE63DD0048831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA30B023CE63DD0048831C /* Main.storyboard */; };
 		E3AA30B423CE63E70048831C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AA30B323CE63E70048831C /* Assets.xcassets */; };
 		E3AA30B723CE63E70048831C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA30B523CE63E70048831C /* LaunchScreen.storyboard */; };
+		E3AA30C323CE78F50048831C /* Moody2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA30C223CE78F50048831C /* Moody2ViewController.swift */; };
+		E3AA30C723CE7D060048831C /* Angry2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA30C623CE7D060048831C /* Angry2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E3AA30B323CE63E70048831C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AA30B623CE63E70048831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AA30B823CE63E70048831C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AA30C223CE78F50048831C /* Moody2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moody2ViewController.swift; sourceTree = "<group>"; };
+		E3AA30C623CE7D060048831C /* Angry2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		E3AA309E23CE63DD0048831C = {
 			isa = PBXGroup;
 			children = (
+				E3AA30C623CE7D060048831C /* Angry2ViewController.swift */,
 				E3AA30A923CE63DD0048831C /* moodyNoor */,
 				E3AA30A823CE63DD0048831C /* Products */,
 			);
@@ -60,6 +65,7 @@
 				E3AA30AC23CE63DD0048831C /* SceneDelegate.swift */,
 				E3AA30AE23CE63DD0048831C /* ViewController.swift */,
 				E3AA30B023CE63DD0048831C /* Main.storyboard */,
+				E3AA30C223CE78F50048831C /* Moody2ViewController.swift */,
 				E3AA30B323CE63E70048831C /* Assets.xcassets */,
 				E3AA30B523CE63E70048831C /* LaunchScreen.storyboard */,
 				E3AA30B823CE63E70048831C /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				E3AA30AF23CE63DD0048831C /* ViewController.swift in Sources */,
 				E3AA30AB23CE63DD0048831C /* AppDelegate.swift in Sources */,
+				E3AA30C723CE7D060048831C /* Angry2ViewController.swift in Sources */,
 				E3AA30AD23CE63DD0048831C /* SceneDelegate.swift in Sources */,
+				E3AA30C323CE78F50048831C /* Moody2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z67NNPK97K;
 				INFOPLIST_FILE = moodyNoor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z67NNPK97K;
 				INFOPLIST_FILE = moodyNoor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
